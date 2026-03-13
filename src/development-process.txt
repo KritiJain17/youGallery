@@ -1,0 +1,11 @@
+1. Got the basics first. 
+2. Here are the phases for app. 
+
+PHASES: 
+1. Get a hover button on gallery. 
+2. Allow images to be shared between app. 
+3. create gallery like grid and buttons in the app. 
+4. Menu in app would be -
+- Clear. 
+- tooo disallow backing from app. 
+- to require password to enter gallery
