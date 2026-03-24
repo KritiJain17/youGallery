@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from "styled-components/native";
 import {
   space,
   color,
@@ -11,10 +11,7 @@ import {
   background,
 } from "styled-system";
 
-const Box = styled.div`
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+const Box = styled.View`
   ${space}
   ${color}
   ${layout}
