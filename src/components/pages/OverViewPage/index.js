@@ -1,9 +1,10 @@
 import React from "react";
 import { PageLayout } from "../Pagelayout";
 import Box from "../../atoms/box.atom";
-import { FlatList } from "react-native/types_generated/index";
+// import { FlatList } from "react-native/types_generated/index";
 import { OverViewPageContainer } from "./styles.overview";
 import { numValues } from "../../../constants/constantValues";
+import { Text } from "react-native";
 
 export const OverView = ({ imageData = [] }) => {
   const IMAGE_SIZE = 100 / numValues?.NUM_COLS;
@@ -13,7 +14,7 @@ export const OverView = ({ imageData = [] }) => {
         <Box>
           {imageData?.map((image) => {
             return (
-              <ImageGridBox
+              <Box
                 height={IMAGE_SIZE}
                 width={IMAGE_SIZE}
                 source={{ uri: image }}
@@ -22,7 +23,7 @@ export const OverView = ({ imageData = [] }) => {
           })}
         </Box>
       ) : (
-        <></>
+        <Text>kjshfkf</Text>
       )}
     </OverViewPageContainer>
   );

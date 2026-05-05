@@ -1,6 +1,7 @@
-import styled from "styled-components";
+import styled from "styled-components/native";
+import Box from "../../atoms/box.atom";
 
-export const OverViewPageContainer = styled(Box)`
+export const OverViewPageContainer = styled.View`
   height: 100%;
   width: 100%;
   display: flex;
@@ -8,7 +9,7 @@ export const OverViewPageContainer = styled(Box)`
   flex-wrap: wrap;
 `;
 
-export const ImageGridBox = styled(Image)`
-  height: 100%;
-  width: 100%;
-`;
+// export const ImageGridBox = styled(Image)`
+//   height: 100%;
+//   width: 100%;
+// `;
